@@ -1,0 +1,15 @@
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+
+.jumbotron {
+
+    background-image: url('/src/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .bgt {
+        background-color: rgba($color: #000, $alpha: .5);
+    }
+}
